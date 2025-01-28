@@ -13,3 +13,13 @@ let totalOrders = orders.reduce((total, order) => total + order, 0);
 console.log('Update orders:', orders);
 console.log('Total number of orders:' totalOrders);
 
+//Task 3: Employee Performance Tracking
+let employee = {
+    name: 'Drake Routh',
+    role: 'Software Developer',
+    performanceScore: 85,
+    isActive: true
+};
+employee.performanceScore = 90;
+employee.promotionEligible = true;
+console.log(employee);
