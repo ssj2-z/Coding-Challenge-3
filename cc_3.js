@@ -23,3 +23,13 @@ let employee = {
 employee.performanceScore = 90;
 employee.promotionEligible = true;
 console.log(employee);
+
+//Task 4: Customer Feedback Records
+let Feedback = [
+    { customerName: 'Alice', feedbackText: 'Great service!', rating: 5},
+    { customerName: 'bob', feedbackText: 'Good wuality products.', rating: 4},
+    { customerName: 'Charlie', feedbackText: 'Fast delivery.', rating: 5}
+];
+Feedback.push({ customerName: 'Diana', feedbackText: 'Excellent customer support.', rating: 5});
+console.log(feedback);
+
