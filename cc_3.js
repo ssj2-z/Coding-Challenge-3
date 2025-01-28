@@ -33,3 +33,14 @@ let Feedback = [
 Feedback.push({ customerName: 'Diana', feedbackText: 'Excellent customer support.', rating: 5});
 console.log(feedback);
 
+//Task 5: Inventory Management System
+let inventory = {
+    itemname: 'Laptop',
+    stockCount: 50,
+    price:500.50,
+    calculateTotalValue: function() {
+    return this.stockCount * this.price;
+}
+};
+console.log('Inventory Details:', inventory);
+console.log('Total Inventory Value:', inventory.calculateTotalValue());
