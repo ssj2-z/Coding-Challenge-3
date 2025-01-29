@@ -2,8 +2,8 @@
 
 let price = [20, 30, 40, 50, 55, 60];
 price.push(70);
-prices.shift();
-console.log(prices);
+price.shift();
+console.log(price);
 
 //Task 2: Modifying Customer Orders
 
@@ -31,7 +31,7 @@ let Feedback = [
     { customerName: 'Charlie', feedbackText: 'Fast delivery.', rating: 5}
 ];
 Feedback.push({ customerName: 'Diana', feedbackText: 'Excellent customer support.', rating: 5});
-console.log(feedback);
+console.log(Feedback);
 
 //Task 5: Inventory Management System
 let inventory = {
