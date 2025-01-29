@@ -11,7 +11,7 @@ let orders = [5, 10, 15, 20, 25];
 orders[2] +=5; // The third element is at index 2
 let totalOrders = orders.reduce((total, order) => total + order, 0);
 console.log('Update orders:', orders);
-console.log('Total number of orders:' totalOrders);
+console.log('Total number of orders:', totalOrders);
 
 //Task 3: Employee Performance Tracking
 let employee = {
